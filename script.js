@@ -39,7 +39,7 @@ button.addEventListener("click", () => {
   resetGrid();
 });
 randomColorButton.addEventListener("click", () => {
-  isRandom = true;
+  isRandom = !isRandom;
 });
 
 function randomColor() {
